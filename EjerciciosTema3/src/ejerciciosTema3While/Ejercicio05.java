@@ -26,7 +26,7 @@ public class Ejercicio05 {
 			else if (num > 0) {
 				positivo = positivo + num;
 			}
-			else (num < 0) {
+			else if (num < 0) {
 				sumaNegativo = sumaNegativo + num;
 				contNegativo++;
 				mediaNegativo = sumaNegativo / (double) contNegativo;
